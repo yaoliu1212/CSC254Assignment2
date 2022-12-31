@@ -1,7 +1,3 @@
-Name: Yao Liu
-NetID: yliu204
-Partner: Yibo (Mike) He
-
 Files
 1. scan.hpp
 2. scan.cpp
