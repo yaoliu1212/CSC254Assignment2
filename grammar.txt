@@ -1,0 +1,14 @@
+P	→ 	SL  $$
+SL	→ 	S ; SL  |  ε
+S	→ 	int id := E  |  real id := E  |  id := E  |  read TP id  |  write E 
+ |  if C then SL end  |  while C do SL end
+TP	→ 	int  |  real  |  ε
+C	→ 	E  RO  E
+E	→ 	T  TT
+TT	→ 	AO  T  TT  |  ε
+T	→ 	F  FT
+FT	→ 	MO  F  FT  |  ε
+F	→ 	( E )  |  id  |  i_num  |  r_num  |  trunc ( E )  |  float ( E )
+RO	→ 	==  |  <>  |  <  |  >  |  <=  |  >=
+AO	→ 	+  |  -
+MO	→ 	*  |  /

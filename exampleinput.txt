@@ -1,0 +1,89 @@
+read int n;
+    int cp := 2; 
+    while n > 0 do
+    end;
+
+
+read int n;
+    int cp := 2
+    while n > 0 do
+    end;
+
+ read int n;
+    int cp := 2;
+    while n > 0 do
+        int found := 0;
+        int cf1 := 2;
+
+
+      read int n;
+    int cp := 2;
+    while n > 0 do
+        int found := 0;
+        int cf1 := 2;
+        int cf1s := cf1 * cf1;
+        while cf1s <= cp do
+            int cf2 := 2;
+            int pr := cf1 * cf2;
+            while pr <= cp do
+                if pr == cp then
+                    found := 1;
+                end;
+                cf2 := cf2 + 1;
+                pr := cf1 * cf2;
+            end;
+            cf1 := cf1 + 1;
+            cf1s := cf1 * cf1;
+        end;
+        if found == 0 then
+            write cp;
+            n := n - 1;
+        end;
+        cp := cp + 1;
+    end; 
+
+
+int @ba : 4;
+@read int @np := 4; 
+@read int np@ ;
+//tp: read a;
+read 4;
+ int dd := := ; ;
+
+
+read int a;
+
+int b := 3;
+
+read real d := 105.3;
+
+int c := 10;
+while d > c do
+    write d / 3;
+end;
+
+int a := .3;
+
+.0
+.0e0
+.0e+0
+.0e-0
+0
+0.
+0.e0
+0.e+0
+e.e-0
+
+if (3 < 5) then 
+     int a := 4;
+end;
+
+
+
+
+if C then SL end
+
+ cp := cp + 1 ;
+
+
+write .2w
